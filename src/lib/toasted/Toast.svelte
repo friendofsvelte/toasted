@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { ToastNotification } from './interfaces.js';
-	import { dismissToast } from '$lib/toasts/handleToast.js';
+	import { dismissToast } from './handleToast.js';
 
 	const statusIcons = {
 		success: 'bxs:check-circle',

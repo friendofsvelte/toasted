@@ -2,9 +2,9 @@
 	import { flip } from 'svelte/animate';
 	import { fade } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
-	import { storedToasts } from '$lib/toasts/store.js';
-	import Toast from '$lib/toasts/Toast.svelte';
-	import InitToasts from '$lib/toasts/InitToasts.svelte';
+	import { storedToasts } from './store.js';
+	import { Toast } from '$lib';
+	import {InitToasts} from '$lib';
 </script>
 
 <InitToasts duration={124} />

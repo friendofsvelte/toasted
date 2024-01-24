@@ -1,11 +1,10 @@
-import Toasted from '$lib/toasts/Toasted.svelte';
-import InitToasts from '$lib/toasts/InitToasts.svelte';
-import { storedToasts } from '$lib/toasts/store.js';
-import { flash_redirect, setMessages } from '$lib/toasts/server/flash.js';
-import { addToast, dismissToast, dismissAllToasts, setFlashMessage, triggerMessage } from '$lib/toasts/handleToast.js';
+import Toasted from './toasted/Toasted.svelte';
+import { flash_redirect } from './toasted/server/flash.js';
+import Toast from './toasted/Toast.svelte';
+import InitToasts from './toasted/InitToasts.svelte';
 
-const handle = {
-	addToast, dismissToast, dismissAllToasts, setFlashMessage, triggerMessage
-};
+export { addToast, dismissAllToasts, dismissToast, triggerMessage, setFlashMessage } from './toasted/handleToast.js';
 
-export { handle, storedToasts, InitToasts, Toasted, flash_redirect, setMessages };
+export { Toasted, flash_redirect, Toast, InitToasts };
+
+export default Toasted;

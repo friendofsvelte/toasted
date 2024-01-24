@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { Fallback, MessageOut } from './interfaces.js';
 	import { browser } from '$app/environment';
-	import { addToast, setFlashMessage, triggerMessage } from '$lib/toasts/handleToast.js';
+	import { addToast, setFlashMessage, triggerMessage } from './handleToast.js';
 	import { page } from '$app/stores';
 	import { afterNavigate } from '$app/navigation';
 
