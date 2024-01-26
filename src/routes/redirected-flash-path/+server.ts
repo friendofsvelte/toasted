@@ -1,5 +1,5 @@
 import type { RequestHandler } from './$types';
-import { flash_redirect } from '$lib';
+import flash_redirect from '$lib/toasted/server/flash.js';
 
 export const GET: RequestHandler = async ({ cookies }) => {
 	throw flash_redirect(

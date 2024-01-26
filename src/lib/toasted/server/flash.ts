@@ -28,7 +28,6 @@ export const flash_redirect: FlashRedirect = (
 	status,
 	location
 ) => {
-	console.log(message);
 	setMessages(cookies, {
 		...message,
 		path: location.toString()
