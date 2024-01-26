@@ -10,7 +10,7 @@ npm install @friendofsvelte/toasted
 
 ## Usage
 
-Here's how you can set your toast/flash messages.
+Here's how you can set your toast/flash messages. Usually from `+page.server.ts` or `+server.ts` file.
 
 ```typescript
 import type { RequestHandler } from './$types';
