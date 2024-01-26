@@ -1,6 +1,21 @@
 {
   "name": "@friendofsvelte/toasted",
-  "version": "0.0.0-pre.0.1",
+  "version": "0.0.1",
+  "keywords": [
+    "toast",
+    "flash message",
+    "svelte",
+    "sveltekit"
+  ],
+  "author": "bishwas bhandari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/friendofsvelte/toasted/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/friendofsvelte/toasted.git"
+  },
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run package",
@@ -32,8 +47,8 @@
       "svelte": "./dist/toasted/Toast.svelte"
     },
     "./InitToasts.svelte": {
-        "types": "./dist/toasted/InitToasts.svelte.d.ts",
-        "svelte": "./dist/toasted/InitToasts.svelte"
+      "types": "./dist/toasted/InitToasts.svelte.d.ts",
+      "svelte": "./dist/toasted/InitToasts.svelte"
     }
   },
   "files": [
