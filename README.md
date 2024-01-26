@@ -20,10 +20,7 @@ export const GET: RequestHandler = async ({ cookies }) => {
 	throw flash_redirect(
 		cookies,
 		{
-			messages: [
-				'This is just a simple toast message.',
-				'This is just another simple toast message'
-			],
+			messages: [ 'This is just a simple toast message.', 'This is just another simple toast message'], // or message: 'This is just a simple toast message.'
 			message_type: 'success',
 			alias: 'already_confirmed'
 		},
