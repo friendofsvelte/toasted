@@ -1,7 +1,7 @@
 <script>
 	import '../app.pcss';
 	import 'iconify-icon';
-	import Toasted from '$lib/Toasted.svelte';
+	import Toasted from '$lib/toasted/Toasted.svelte';
 </script>
 
 <slot />

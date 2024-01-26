@@ -20,7 +20,8 @@
 		if (fallback && $page.status >= 400 && !$page.form?.message && !$page.error?.message && !$page.form?.inline) {
 			addToast({
 				message: fallback.message,
-				message_type: fallback.message_type
+				message_type: fallback.message_type,
+				alias: 'fallback'
 			}, fallback.duration);
 		}
 	}

@@ -44,4 +44,4 @@ export type DetailedValidationError = {
 }
 
 export type FallbackMessage = { message: string; message_type: MessageType; duration: number; };
-export type Fallback = boolean | FallbackMessage;
+export type Fallback = false | FallbackMessage;

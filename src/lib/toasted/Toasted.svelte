@@ -3,8 +3,8 @@
 	import { fade } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
 	import { storedToasts } from './store.js';
-	import { Toast } from '$lib';
-	import {InitToasts} from '$lib';
+	import Toast from './Toast.svelte';
+	import InitToasts from './InitToasts.svelte';
 </script>
 
 <InitToasts duration={124} />

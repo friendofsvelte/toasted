@@ -27,7 +27,14 @@
       "types": "./dist/toasted/Toasted.svelte.d.ts",
       "svelte": "./dist/toasted/Toasted.svelte"
     },
-    "./handleToast": "./dist/toasted/handleToast.js"
+    "./Toast.svelte": {
+      "types": "./dist/toasted/Toast.svelte.d.ts",
+      "svelte": "./dist/toasted/Toast.svelte"
+    },
+    "./InitToasts.svelte": {
+        "types": "./dist/toasted/InitToasts.svelte.d.ts",
+        "svelte": "./dist/toasted/InitToasts.svelte"
+    }
   },
   "files": [
     "dist",
